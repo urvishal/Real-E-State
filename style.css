@@ -81,3 +81,38 @@ nav {
   background-size: cover;
   background-position: center;
 }
+.hero {
+}
+.para-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  font-size: 3rem;
+}
+#para-2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.para-1:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in, ease-out;
+}
+.src-btn {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+#search-btn {
+  width: 535px;
+  height: 30px;
+  padding: 10px;
+}
+#src-logo {
+  width: 35px;
+  color: black;
+  background-color: white;
+}
